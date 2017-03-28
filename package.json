@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{"node":"6.2.2"},
+  "engines": {
+    "node": "6.2.2"
+  },
   "author": "Pratik Solanki",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "nodemon": "^1.11.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "socket.io": "^1.7.3"
   }
 }
